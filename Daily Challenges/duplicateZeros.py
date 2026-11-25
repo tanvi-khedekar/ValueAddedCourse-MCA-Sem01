@@ -1,4 +1,4 @@
-def duplicateZeros(arr: List[int]) -> List[int]:
+def duplicateZeros(arr: list[int]) -> list[int]:
     i = 0
     while i < len(arr):
         if arr[i] == 0:
